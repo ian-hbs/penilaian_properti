@@ -1,0 +1,2 @@
+[06-Jul-2017 16:54:42 Asia/Jakarta] PHP Warning:  include_once(contents//main.php): failed to open stream: No such file or directory in /home/kjpe4957/public_html/penilaian-properti/content_manager.php on line 34
+[06-Jul-2017 16:54:42 Asia/Jakarta] PHP Warning:  include_once(): Failed opening 'contents//main.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kjpe4957/public_html/penilaian-properti/content_manager.php on line 34

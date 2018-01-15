@@ -1,0 +1,53 @@
+<?php       
+    include_once "../../libraries/cipher.php";
+
+    $list_sql = "SELECT a.id_penugasan,a.no_penugasan,DATE_FORMAT(a.tgl_penugasan,'%d-%m-%Y') as tgl_penugasan,a.no_penilaian,b.nama,c.alamat,c.kelurahan,c.kecamatan 
+                 FROM penugasan as a, debitur as b, properti as c WHERE (a.id_penugasan=b.fk_penugasan) AND (a.id_penugasan=c.fk_penugasan)";
+
+    if(isset($_POST['kunci_pencarian']))
+    {
+      session_start();
+      include_once "../../config/superglobal_var.php";
+      include_once "../../config/db_connection.php";
+      include_once "../../libraries/user_controller.php";      
+      
+      $uc = new user_controller($db);      
+
+      $fn = $_POST['fn'];    
+      $menu_id = $_POST['menu_id'];
+      $kunci_pencarian = $_POST['kunci_pencarian'];
+      $list_sql .= " AND (a.no_penilaian LIKE '%".$kunci_pencarian."%' OR a.id_penugasan  LIKE '%".$kunci_pencarian."%' OR b.nama LIKE '%".$kunci_pencarian."%')";
+    }
+    else
+    {
+      $list_sql .= " ORDER BY id_penugasan DESC LIMIT 0,10";
+      $kunci_pencarian = '';
+    }
+
+    $list_of_data = $db->Execute($list_sql);
+
+    if (!$list_of_data)
+        print $db->ErrorMsg();
+    
+    $cipher = new cipher(MCRYPT_BLOWFISH, MCRYPT_MODE_ECB);
+
+    echo "
+    <div class='box'>
+      <div class='box-header'>
+
+          <div class='row'>
+            <div class='col-md-11'>
+                <h3 class='box-title'>Daftar Data Dasar</h3>
+            </div>
+            <div class='col-md-1' align='right'>
+          </div>
+          </div>
+      </div>
+      <div class='box-body'>
+        <div id='list-of-data'>";
+            include_once "list_of_data.php"; 
+        echo "
+        </div>        
+      </div>
+    </div>";
+?>

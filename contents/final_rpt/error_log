@@ -1,0 +1,72 @@
+[15-Aug-2017 15:56:53 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Not a PNG file: ../../uploads/location_maps/422Screenshot_2017-08-15-10-53-38.png' in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1271): FPDF->Error('Not a PNG file:...')
+#1 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1262): FPDF->_parsepngstream(Resource id #42, '../../uploads/l...')
+#2 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(885): FPDF->_parsepng('../../uploads/l...')
+#3 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page8_pdf.php(79): FPDF->Image('../../uploads/l...', 16, 153.6, 184, 110)
+#4 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/final_report_pdf.php(176): include_once('/home/kjpe4957/...')
+#5 {main}
+  thrown in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 271
+[15-Aug-2017 15:57:06 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Not a PNG file: ../../uploads/location_maps/422Screenshot_2017-08-15-10-53-38.png' in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1271): FPDF->Error('Not a PNG file:...')
+#1 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1262): FPDF->_parsepngstream(Resource id #52, '../../uploads/l...')
+#2 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(885): FPDF->_parsepng('../../uploads/l...')
+#3 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page8_pdf.php(79): FPDF->Image('../../uploads/l...', 16, 153.6, 184, 110)
+#4 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/final_report_pdf.php(176): include_once('/home/kjpe4957/...')
+#5 {main}
+  thrown in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 271
+[15-Aug-2017 15:57:35 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Not a PNG file: ../../uploads/location_maps/422Screenshot_2017-08-15-10-53-38.png' in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1271): FPDF->Error('Not a PNG file:...')
+#1 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1262): FPDF->_parsepngstream(Resource id #52, '../../uploads/l...')
+#2 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(885): FPDF->_parsepng('../../uploads/l...')
+#3 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page8_pdf.php(79): FPDF->Image('../../uploads/l...', 16, 153.6, 184, 110)
+#4 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/final_report_pdf.php(176): include_once('/home/kjpe4957/...')
+#5 {main}
+  thrown in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 271
+[15-Aug-2017 16:13:55 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Not a PNG file: ../../uploads/location_maps/422Screenshot_2017-08-15-10-53-38.png' in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1271): FPDF->Error('Not a PNG file:...')
+#1 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1262): FPDF->_parsepngstream(Resource id #52, '../../uploads/l...')
+#2 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(885): FPDF->_parsepng('../../uploads/l...')
+#3 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page8_pdf.php(79): FPDF->Image('../../uploads/l...', 16, 153.6, 184, 110)
+#4 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/final_report_pdf.php(176): include_once('/home/kjpe4957/...')
+#5 {main}
+  thrown in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 271
+[15-Aug-2017 16:14:28 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Not a PNG file: ../../uploads/location_maps/422Screenshot_2017-08-15-10-53-38.png' in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1271): FPDF->Error('Not a PNG file:...')
+#1 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1262): FPDF->_parsepngstream(Resource id #52, '../../uploads/l...')
+#2 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(885): FPDF->_parsepng('../../uploads/l...')
+#3 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page8_pdf.php(79): FPDF->Image('../../uploads/l...', 16, 153.6, 184, 110)
+#4 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/final_report_pdf.php(176): include_once('/home/kjpe4957/...')
+#5 {main}
+  thrown in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 271
+[15-Aug-2017 16:19:14 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Not a PNG file: ../../uploads/location_maps/422Screenshot_2017-08-15-10-53-38.png' in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1271): FPDF->Error('Not a PNG file:...')
+#1 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1262): FPDF->_parsepngstream(Resource id #16, '../../uploads/l...')
+#2 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(885): FPDF->_parsepng('../../uploads/l...')
+#3 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page8_pdf.php(79): FPDF->Image('../../uploads/l...', 16, 153.6, 184, 110)
+#4 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/final_report_pdf.php(176): include_once('/home/kjpe4957/...')
+#5 {main}
+  thrown in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 271
+[15-Aug-2017 16:27:10 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Not a PNG file: ../../uploads/location_maps/149Screenshot_2017-08-15-10-53-38.png' in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1271): FPDF->Error('Not a PNG file:...')
+#1 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1262): FPDF->_parsepngstream(Resource id #20, '../../uploads/l...')
+#2 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(885): FPDF->_parsepng('../../uploads/l...')
+#3 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page8_pdf.php(79): FPDF->Image('../../uploads/l...', 16, 153.6, 184, 110)
+#4 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/final_report_pdf.php(176): include_once('/home/kjpe4957/...')
+#5 {main}
+  thrown in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 271
+[15-Aug-2017 16:27:59 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Not a PNG file: ../../uploads/location_maps/610Screenshot_2017-08-15-10-53-38.png' in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1271): FPDF->Error('Not a PNG file:...')
+#1 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1262): FPDF->_parsepngstream(Resource id #28, '../../uploads/l...')
+#2 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(885): FPDF->_parsepng('../../uploads/l...')
+#3 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page8_pdf.php(79): FPDF->Image('../../uploads/l...', 16, 153.6, 184, 110)
+#4 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/final_report_pdf.php(176): include_once('/home/kjpe4957/...')
+#5 {main}
+  thrown in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 271

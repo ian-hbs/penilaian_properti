@@ -1,0 +1,74 @@
+[08-Aug-2017 16:48:14 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '" "' (T_CONSTANT_ENCAPSED_STRING) in /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page4_pdf.php on line 677
+[09-Aug-2017 09:44:50 Asia/Jakarta] PHP Fatal error:  Using $this when not in object context in /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page4_pdf.php on line 674
+[09-Aug-2017 09:45:04 Asia/Jakarta] PHP Fatal error:  Using $this when not in object context in /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page4_pdf.php on line 674
+[09-Aug-2017 09:45:05 Asia/Jakarta] PHP Fatal error:  Using $this when not in object context in /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page4_pdf.php on line 674
+[09-Aug-2017 09:45:05 Asia/Jakarta] PHP Fatal error:  Using $this when not in object context in /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page4_pdf.php on line 674
+[09-Aug-2017 11:33:04 Asia/Jakarta] PHP Warning:  getimagesize(../../assets/images/separator.jpg): failed to open stream: No such file or directory in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 1240
+[09-Aug-2017 11:33:04 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Missing or incorrect image file: ../../assets/images/separator.jpg' in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1242): FPDF->Error('Missing or inco...')
+#1 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(885): FPDF->_parsejpg('../../assets/im...')
+#2 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page3_pdf.php(44): FPDF->Image('../../assets/im...', 76, 240, 60)
+#3 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/final_report_pdf.php(131): include_once('/home/kjpe4957/...')
+#4 {main}
+  thrown in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 271
+[09-Aug-2017 11:33:55 Asia/Jakarta] PHP Warning:  getimagesize(../../assets/images/separator.jpg): failed to open stream: No such file or directory in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 1240
+[09-Aug-2017 11:33:55 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Missing or incorrect image file: ../../assets/images/separator.jpg' in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1242): FPDF->Error('Missing or inco...')
+#1 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(885): FPDF->_parsejpg('../../assets/im...')
+#2 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page3_pdf.php(44): FPDF->Image('../../assets/im...', 76, 240, 60)
+#3 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/final_report_pdf.php(131): include_once('/home/kjpe4957/...')
+#4 {main}
+  thrown in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 271
+[09-Aug-2017 11:33:55 Asia/Jakarta] PHP Warning:  getimagesize(../../assets/images/separator.jpg): failed to open stream: No such file or directory in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 1240
+[09-Aug-2017 11:33:55 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Missing or incorrect image file: ../../assets/images/separator.jpg' in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1242): FPDF->Error('Missing or inco...')
+#1 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(885): FPDF->_parsejpg('../../assets/im...')
+#2 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page3_pdf.php(44): FPDF->Image('../../assets/im...', 76, 240, 60)
+#3 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/final_report_pdf.php(131): include_once('/home/kjpe4957/...')
+#4 {main}
+  thrown in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 271
+[09-Aug-2017 11:33:56 Asia/Jakarta] PHP Warning:  getimagesize(../../assets/images/separator.jpg): failed to open stream: No such file or directory in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 1240
+[09-Aug-2017 11:33:56 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Missing or incorrect image file: ../../assets/images/separator.jpg' in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1242): FPDF->Error('Missing or inco...')
+#1 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(885): FPDF->_parsejpg('../../assets/im...')
+#2 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page3_pdf.php(44): FPDF->Image('../../assets/im...', 76, 240, 60)
+#3 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/final_report_pdf.php(131): include_once('/home/kjpe4957/...')
+#4 {main}
+  thrown in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 271
+[09-Aug-2017 11:35:32 Asia/Jakarta] PHP Warning:  getimagesize(../../assets/images/separator.jpg): failed to open stream: No such file or directory in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 1240
+[09-Aug-2017 11:35:32 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Missing or incorrect image file: ../../assets/images/separator.jpg' in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1242): FPDF->Error('Missing or inco...')
+#1 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(885): FPDF->_parsejpg('../../assets/im...')
+#2 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page3_pdf.php(44): FPDF->Image('../../assets/im...', 76, 240, 60)
+#3 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/final_report_pdf.php(131): include_once('/home/kjpe4957/...')
+#4 {main}
+  thrown in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 271
+[09-Aug-2017 11:35:47 Asia/Jakarta] PHP Warning:  getimagesize(../../assets/images/separator.jpg): failed to open stream: No such file or directory in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 1240
+[09-Aug-2017 11:35:47 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Missing or incorrect image file: ../../assets/images/separator.jpg' in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1242): FPDF->Error('Missing or inco...')
+#1 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(885): FPDF->_parsejpg('../../assets/im...')
+#2 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page3_pdf.php(44): FPDF->Image('../../assets/im...', 76, 240, 60)
+#3 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/final_report_pdf.php(131): include_once('/home/kjpe4957/...')
+#4 {main}
+  thrown in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 271
+[09-Aug-2017 11:36:33 Asia/Jakarta] PHP Warning:  getimagesize(../../assets/images/separator.jpg): failed to open stream: No such file or directory in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 1240
+[09-Aug-2017 11:36:33 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Missing or incorrect image file: ../../assets/images/separator.jpg' in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(1242): FPDF->Error('Missing or inco...')
+#1 /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php(885): FPDF->_parsejpg('../../assets/im...')
+#2 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page3_pdf.php(44): FPDF->Image('../../assets/im...', 76, 240, 60)
+#3 /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/final_report_pdf.php(131): include_once('/home/kjpe4957/...')
+#4 {main}
+  thrown in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 271
+[10-Aug-2017 10:28:28 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ',' in /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page_perhitungan_tanah.php on line 63
+[10-Aug-2017 11:36:29 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ',' in /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page_perhitungan_tanah.php on line 109
+[10-Aug-2017 13:13:57 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ',' in /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page_perhitungan_tanah.php on line 115
+[10-Aug-2017 16:32:11 Asia/Jakarta] PHP Fatal error:  Cannot redeclare class FPDF in /home/kjpe4957/public_html/penilaian-properti/libraries/fpdf/fpdf.php on line 12
+[10-Aug-2017 16:41:05 Asia/Jakarta] PHP Fatal error:  Call to undefined function word_wrap() in /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page_perhitungan_tanah.php on line 59
+[11-Aug-2017 09:29:52 Asia/Jakarta] PHP Fatal error:  Call to undefined function word_wrap() in /home/kjpe4957/public_html/penilaian-properti/contents/final_rpt/page_perhitungan_tanah.php on line 59
